@@ -43,7 +43,7 @@ void enqueue(int value) {
 int dequeue() {
     if (isEmpty()) {
         printf("Queue is empty, cannot dequeue.\n");
-        return -1; // Return an error value
+        return -1; 
     }
     struct Node* temp = front;
     int value = temp->data;
